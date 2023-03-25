@@ -1,0 +1,42 @@
+﻿body {
+    font-family: serif;
+    background-color:whitesmoke;
+    margin:0;
+}
+
+.section1 {
+    background-image: url(https://images.unsplash.com/photo-1605647601778-865aeff15565?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1-text {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-size: 100px;
+}
+
+.p1 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 10px 10px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.secR {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
